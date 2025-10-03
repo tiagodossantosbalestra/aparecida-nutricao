@@ -8,4 +8,5 @@
        var peso = tdPeso.textContent;
        console.log(paciente);
        console.log(peso);
+       var tdAltura = document
        
