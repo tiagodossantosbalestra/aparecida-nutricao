@@ -2,3 +2,6 @@
        console.log(titulo);
        console.log(titulo.textContent);
        titulo.textContent = ("Tiago nutricao");
+
+       var paciente=document.querySelector("#primeiro-paciente");
+       console.log(paciente);
