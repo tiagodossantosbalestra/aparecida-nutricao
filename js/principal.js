@@ -4,12 +4,12 @@
        titulo.textContent = ("Tiago nutricao");
 
        var paciente=document.querySelector("#primeiro-paciente");
-       vartdNome = document.querySelector(".info-nome")
-
+       var tdNome = document.querySelector(".info-nome");
+       var nome = tdNome.textContent;
+       console.log(nome);
 
        var tdPeso =  paciente.querySelector(".info-peso");
        var peso = tdPeso.textContent;
-       console.log(paciente);
        console.log(peso);
 
        //07/10/2025
@@ -17,6 +17,7 @@
        var altura = tdAltura.textContent;
        console.log(altura);
 
+       var tdImc = paciente.querySelector(".info-imc");
        var imc = peso/ (altura * altura);
        console.log(imc);
 
