@@ -4,6 +4,9 @@
        titulo.textContent = ("Tiago nutricao");
 
        var paciente=document.querySelector("#primeiro-paciente");
+       vartdNome = document.querySelector(".info-nome")
+
+
        var tdPeso =  paciente.querySelector(".info-peso");
        var peso = tdPeso.textContent;
        console.log(paciente);
