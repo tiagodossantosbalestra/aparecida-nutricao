@@ -21,4 +21,9 @@
        var imc = peso/ (altura * altura);
        console.log(imc);
 
+
+       if(peso<0 || peso> 1000){
+              console.log("peso inválido");
+       }
+
        
