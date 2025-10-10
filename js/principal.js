@@ -26,4 +26,8 @@
               console.log("peso inválido");
        }
 
+       if(altura<0||altura>3.00){
+              console.log("Altura inválida");
+       }
+
        
