@@ -3,10 +3,12 @@ console.log(titulo);
 console.log(titulo.textContent);
 titulo.textContent = ("Aparecida Nutricionista");
 
-var paciente = document.querySelector("#primeiro-paciente");
-var tdNome = document.querySelector(".info-nome");
-var nome = tdNome.textContent; 
-console.log(nome);
+var paciente = document.querySelectorAll(".paciente");
+for (var i = 0; i <pacientes.length; i++){
+    console.log(pacientes[i]);
+}
+
+
 
 var tdPeso = document.querySelector(".info-peso");
 var peso = tdPeso.textContent;
