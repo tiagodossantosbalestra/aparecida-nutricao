@@ -37,11 +37,14 @@ for (var i = 0; i < pacientes.length; i++) {
     }
 
     titulo.addEventListener("click", mostaraMensagem);
-    funtion mostraMensagem(){
+    function mostraMensagem(){
         alert("olá eu fui clicado.")
     }
 }
 
 var botaoAdicionar = document.querySelector(#adicionar-paciente);
-botaoAdicionar.addEventListener("click, function"(event)
+    botaoAdicionar.addEventListener("click", function(event){
+        event.preventDefault();
+        alert("Oi eu sou um botão e fui clicado");
+    }
 
