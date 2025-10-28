@@ -46,6 +46,6 @@ var botaoAdicionar = document.querySelector(#adicionar-paciente);
     botaoAdicionar.addEventListener("click", function(event){
         event.preventDefault();
         alert("Oi eu sou um botão e fui clicado");
-        var form = document.querySelector("#form-adiciona");
+        var form = document.querySelector("#form-adiciona")
     }
 }
