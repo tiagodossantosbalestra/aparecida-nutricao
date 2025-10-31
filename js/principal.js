@@ -4,6 +4,7 @@ console.log(titulo.textContent);
 titulo.textContent = ("Tiago Nutricionista");
 
 var pacientes = document.querySelectorAll(".paciente");
+
 for (var i = 0; i < pacientes.length; i++) {
     var paciente = pacientes[i];
     var tdPeso = paciente.querySelector(".info-peso");
@@ -40,8 +41,7 @@ for (var i = 0; i < pacientes.length; i++) {
     function mostraMensagem(){
         alert("Olá eu fui clicado.");
     }
-
-
+// 31/10
 var botaoAdicionar = document.querySelector(#adicionar-paciente);
     botaoAdicionar.addEventListener("click", function(event){
         event.preventDefault();
@@ -58,5 +58,10 @@ var botaoAdicionar = document.querySelector(#adicionar-paciente);
         pesoTd.textContent = peso;
         alturaTd.textContent = altura;
         gorduraTd.textContent = gordura;
-}
 
+        pacientTr.appendChild(nomeTd);
+        pacientTr.appendChild(pesoTd);
+        pacientTr.appendChild(alturaTd);
+        pacientTr.appendChild(gorduraTd);
+}
+}
