@@ -47,5 +47,16 @@ var botaoAdicionar = document.querySelector(#adicionar-paciente);
         event.preventDefault();
         alert("Oi eu sou um botão e fui clicado");
         var form = document.querySelector("#form-adiciona")
-    }
+
+        var nomeTd = document.createElement("td");
+        var pesoTd = document.createElement("td");
+        var alturaTd = document.createElement("td");
+        var gorduraTd = document.createElement("td");
+        var imcTd = document.createElement("td");
+
+        nomeTd.textContent = nome;
+        pesoTd.textContent = peso;
+        alturaTd.textContent = altura;
+        gorduraTd.textContent = gordura;
 }
+
