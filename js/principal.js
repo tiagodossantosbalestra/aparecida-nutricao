@@ -70,4 +70,5 @@ var botaoAdicionar = document.querySelector("#adicionar-paciente");
         var tabela = document.querySelector("#tabela-pacientes");
 
         tabela.appendChild(pacienteTr);        
-});
+}
+)
