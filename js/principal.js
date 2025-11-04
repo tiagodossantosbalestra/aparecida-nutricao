@@ -68,5 +68,6 @@ var botaoAdicionar = document.querySelector("#adicionar-paciente");
         pacientTr.appendChild(gorduraTd);
 
         var tabela = document.querySelector("#tabela-pacientes");
+        
         tabela.appendChild(pacienteTr);        
 })
