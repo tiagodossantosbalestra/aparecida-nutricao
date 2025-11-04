@@ -63,10 +63,10 @@ var botaoAdicionar = document.querySelector("#adicionar-paciente");
         alturaTd.textContent = altura;
         gorduraTd.textContent = gordura;
 
-        pacientTr.appendChild(nomeTd);
-        pacientTr.appendChild(pesoTd);
-        pacientTr.appendChild(alturaTd);
-        pacientTr.appendChild(gorduraTd);
+        pacienteTr.appendChild(nomeTd);
+        pacienteTr.appendChild(pesoTd);
+        pacienteTr.appendChild(alturaTd);
+        pacienteTr.appendChild(gorduraTd);
 
         var tabela = document.querySelector("#tabela-pacientes");
 
