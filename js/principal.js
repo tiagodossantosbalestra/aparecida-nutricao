@@ -37,10 +37,6 @@ for (var i = 0; i < pacientes.length; i++) {
         tdImc.textContent = imc.toFixed(2);
     }
 
-    titulo.addEventListener("click", mostraMensagem);
-    function mostraMensagem(){
-        alert("Olá eu fui clicado.");
-    }
 // 31/10
 var botaoAdicionar = document.querySelector("#adicionar-paciente");
     botaoAdicionar.addEventListener("click", function(event){
