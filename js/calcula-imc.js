@@ -38,4 +38,8 @@ for (var i = 0; i < pacientes.length; i++) {
     }
 }
 
-// 31/10
+function calculaImc (peso, altura);
+    var imc = 0;
+    var imc = peso / (altuara * altura);
+    return imc;
+}
